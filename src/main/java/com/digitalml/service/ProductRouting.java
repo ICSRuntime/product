@@ -35,10 +35,17 @@ public class ProductRouting {
 
     private static final Logger logger = LoggerFactory.getLogger("product:1");
 
+<<<<<<< HEAD
     public static void main(String[] args) {
     
         port(4567);
     
+=======
+	public void foo() {}
+	
+    public static void main(String[] args) {
+    
+>>>>>>> my_branch
         get("/ping", (req, res) -> {
             return "pong";
         });
